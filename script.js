@@ -23,6 +23,6 @@ feedbackDiv.style.display = "block";
 if (isValid) {
   feedbackDiv.textcontent = "<p>Registration successful!</p>";
   feedbackDiv.style.color= "#28a745";
-else feedbackDiv.innerHTML = "<p>" + Messages.join("<br>") + "</p>";
+else feedbackDiv.innerHTML = "<p>" + messages.join ("<br>") + "</p>";
   feedbackDiv.style.color = "#dc3545";
 });
