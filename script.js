@@ -8,7 +8,7 @@ const email = document.getElementById("email").value.trim;
 const password = document.getElementById("password").value.trim;
 
 const isValid = true;
-const Messages = [""];
+const Messages = ["messages"];
 if (username.length < 3) {
   Messages.push("Username must be at least 3 characters long.");
   isValid = false;}
